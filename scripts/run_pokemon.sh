@@ -1,0 +1,2 @@
+# Train on Pokemon dataset
+python train.py --data_path data\pokemon-images-dataset-by-type --image_channels 3 --use_gradient_penalty --logs_dir logs --save_dir models --optimizer Adam --lr 1e-4 --n_epochs 100 --batch_size 16 --n_classes 18
